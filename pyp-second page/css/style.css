@@ -1,0 +1,67 @@
+header{
+    padding: 20px;
+    background-color: rgb(187, 187, 187);
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .heading{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+header .paragraph{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#navbar{
+    text-align: center;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+#banner{
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto;
+    border: 1px solid gray;
+}
+
+#banner p{
+    font-weight: bolder;
+}
+
+#two-banner{
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px auto;
+    border: 1px solid gray;
+}
+
+#two-banner p{
+    font-weight: bolder;
+}
+
+#three-banner{
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+#three-banner p{
+    font-weight: bolder;
+}

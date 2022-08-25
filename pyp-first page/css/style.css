@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 25px;
+    padding: 25px;
+    background-color: black;
+}
+
+#middle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+#middle .box{
+    padding: 120px 180px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+footer{
+    padding: 25px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 70px auto;
+    background-color: darkorchid;
+    border-radius: 10px;
+}

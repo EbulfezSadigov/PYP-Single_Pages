@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-bottom: 1px solid gray;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+header ul li{
+    padding: 7px;
+}
+
+header .left{
+    width: 20%;
+}
+
+header .left span{
+    opacity: .7;
+}
+
+header .right{
+    width: 78%;
+}
+
+header .right .main{
+    width: 350px;
+    display: inline-block;
+}
+
+header .right .main .text{
+    padding: 10px;
+}
+
+header .right .main .text p{
+    padding-block: 10px;
+    font-size: 14px;
+    opacity: .7;
+}
+
+header .right .main .text span{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+header .right .main .text .money{
+    float: right;
+
+}
+
+header .right .main img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
